@@ -1,0 +1,27 @@
+h1{
+    font-family: 'Oswald', sans-serif; 
+    text-align: center;
+    color: #534b4b;    
+}
+
+.today{
+    font-family: sans-serif; 
+    text-align: center;
+    color: #534b4b;
+}
+
+#today-challenge{
+    font-family: 'Fira Sans', sans-serif;
+    color: rgb(170, 96,83);
+    font-weight: bold;
+    font-size: 52px;
+}
+
+a{
+    text-decoration: none;
+    color: #534b4b;
+}
+
+a:hover{
+    text-decoration: underline;
+}
