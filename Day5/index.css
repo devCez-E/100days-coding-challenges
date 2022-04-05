@@ -4,34 +4,52 @@ body{
     margin:50px;
 }
 
+
+main{
+    width: 800px;
+    margin: 200px auto 72px auto;
+    padding : 24px;
+    background-color: rgb(219, 108, 94);
+    border: 5px solid rgb(44,44,44);
+    border-radius: 8px;
+    box-shadow: 2px 4px 8px rgba(0,0,0,0.3);
+}
+
 img{
-    width: 100px;
-    height: 100px;
+    width: 200px;
+    height: 200px;
+    border : 5px solid rgb(44,44,44);
     border-radius : 50%;
+    margin-top : -134px;
 }
 
 h1{
-    font-family: 'Oswald', sans-serif; 
+    font-size: 28px;
+    /*text-align: center;*/
+    color: rgb(31, 25, 25);
+}
+
+h1 span{
+    color : rgb(66, 2, 2);
+}
+
+.today{
+    font-family: 'Fira Sans', sans-serif;
+    margin-top : 48px; 
     /*text-align: center;*/
     color: #534b4b;    
 }
 
-.today{
-    font-family: sans-serif; 
-    /*text-align: center;*/
-    color: #534b4b;
-}
-
 #today-challenge{
     font-family: 'Fira Sans', sans-serif;
-    color: rgb(170, 96,83);
+    color: rgb(75, 59,59);
     font-weight: bold;
     font-size: 52px;
 }
 
 a{
     text-decoration: none;
-    color: #534b4b;
+    color: rgb(73,29,50);
 }
 
 a:hover{

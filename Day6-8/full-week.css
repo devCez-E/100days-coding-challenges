@@ -9,18 +9,20 @@ header{
 h1{
     font-size: 48px;
     color : rgb(71, 62, 62);
-    margin:12px 0;
+    margin: 0;
 }
 
 #description{
-    margin-bottom: 36px;
+    margin: 12px;
 }
 
 a{
+    display: inline-block;    /*inline, block, inline-block*/
     background-color: rgb(167, 1, 78);
     font-size: 24px;
     color : white;
-    padding:12px 48px;
+    padding: 12px;
+    margin: 0;
     border-radius: 5px;
 }
 
@@ -37,7 +39,7 @@ main p{
 */
 
 .daily-goal{
-    margin : 12px;
+    margin : 12px 24px;
     color : rgb(71, 29, 22);
 }
 
@@ -53,6 +55,7 @@ li{
     padding:10px;
     background-color: rgb(223,136, 124);
     border-radius: 6px;
+    box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.2);
 }
 
 .highlight-goal{
