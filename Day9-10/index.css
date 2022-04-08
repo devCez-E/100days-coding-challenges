@@ -1,0 +1,48 @@
+h1{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900;
+    font-size: 72px;
+}
+
+img{
+    width:400px;
+}
+
+span{
+    background-color: rgb(255, 240, 180);
+    color : rgb(57,20,89);
+    padding: 4px 8px;
+    border-radius: 4px;
+}
+
+.main-container{
+    width:1040px;
+    margin: 72px auto 36px auto;
+    background-color: rgb(119, 74, 216);
+    border-radius: 8px;
+    padding: 64px 48px;
+    text-align: left;
+}
+
+.container-a{
+    margin-bottom : 24px;
+}
+
+.highlight{
+    border-left : solid 6px rgb(245 219 84);
+    margin-left : -40px;
+    padding-left : 20px;
+    color : rgb(255 255 162);
+}
+
+a{
+    display: inline-block;
+    background-color: rgb(245 219 84);
+    padding:18px 24px;
+    border-radius: 8px;
+}
+
+#company{
+    color : rgb(136, 122, 148);
+    margin-bottom : 0;
+}

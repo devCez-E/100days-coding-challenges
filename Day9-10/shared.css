@@ -1,0 +1,36 @@
+body{
+    background-color: rgb(243,233,255);
+    text-align: center;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+}
+
+footer{
+    margin-bottom : 54px;
+}
+
+h1{
+    color: rgb(83,45,193);
+}
+
+h2{
+    font-size: 36px;
+}
+
+p{
+    font-size: 24px;
+}
+
+a{
+    font-size: 24px;
+    text-decoration: none;
+    color: #534b4b;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+ul{
+    list-style: none;
+}
