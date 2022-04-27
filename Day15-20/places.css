@@ -1,5 +1,6 @@
 body{
     background:linear-gradient(30deg, rgb(77,77,77), rgb(58,58,58));
+    color: rgb(68,68,68);
 }
 
 ul{
@@ -15,21 +16,50 @@ header{
     position:static;
 }
 
-main li img{
-    width: 300px;
-    height: 280px;
-}
-
 #cards{
-    width:800px;
+    width:1200px;
     margin:0 auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 100px;
 }
 
 .card{
+    width:500px;
     display: flex;
     background-color: white;
+    box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.2);
+    border-radius: 6px;
+    overflow: hidden; /* <-> visible*/
+}
+
+.card:nth-of-type(3){
+    grid-column: 1 / span 2;
+}
+
+.card img{
+    width: 300px;
+    height: 100%;
+    object-fit: cover;
 }
 
 .card-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
     padding:24px;
+}
+
+.actions{
+    text-align: end;
+}
+
+.actions a{
+    padding: 6px;
+    color: rgb(22, 211, 228);
+    border-radius: 6px;
+}
+
+.actions a:hover{
+    background-color: rgb(235, 253, 255);
 }
