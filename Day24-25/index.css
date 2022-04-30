@@ -1,0 +1,71 @@
+body{
+    font-family: 'Krub', sans-serif;
+    margin : 0;
+    padding : 0;
+    background-color: rgb(236, 236, 236)
+}
+
+.card-container{
+    width:20rem;
+    margin: 4rem auto;
+    background-color: rgb(255,255,255);
+    box-shadow: 3px 3px 10px rgb(201, 200, 200);
+}
+
+.card-info{
+    padding: 2rem 3rem;
+}
+
+.card-info h1{
+    font-family: 'Zilla Slab', serif;
+    font-size: 2rem;
+    margin : 0;
+    padding: 0;
+}
+
+.card-info p{
+    color: rgb(134, 134, 134);
+    font-size: 0.9rem;
+    margin: 0.7rem 0 0 0;
+}
+
+.price{
+    color: rgb(41, 41, 41);
+    background-color: rgb(167, 226, 255);
+    margin: 0;
+    font-size: 3rem;
+    font-weight: 700;
+    text-align: center;
+}
+
+.price-info{
+    color: rgb(134, 134, 134);
+    margin: 0.6rem auto 0 auto;
+    padding: 0 2rem;
+    text-align: center;
+}
+
+ul{
+    margin : 2rem 1rem;
+}
+
+li{
+    margin:0.6rem 0;
+    font-size: 0.9rem;
+}
+
+.btn{
+    height: 5rem;
+    text-align: center;
+}
+
+.btn a{
+    display: inline-block;
+    width:80%;
+    padding: 1rem 0;
+    color: rgb(0, 170, 255);
+    font-weight: 700;
+    text-decoration: none;
+    text-transform: uppercase;
+    border:2px solid rgb(224,224,224);
+}
