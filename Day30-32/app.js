@@ -12,8 +12,32 @@ let userName = 'Max';
 /*let hobby1;
 let hobby2;*/
 let hobbies = ['Sport', 'Cooking', 'Reading'];
-let job = {title:'Developer', place:'New York', salary: 50000};
+let job = {
+    title:'Developer', 
+    place:'New York', 
+    salary: 50000
+};
 
-alert(hobbies[0]);
 alert(hobbies[1]);
-alert(hobbies[2]);
+alert(job.title);
+
+let adultYears;
+//adultYears = age - 18;
+//caculateAdultYears();
+adultYears = caculateAdultYears(age);
+alert(adultYears);
+
+age = 45;
+//adultYears = age - 18;
+//caculateAdultYears();
+adultYears = caculateAdultYears(age);
+alert(adultYears);
+
+/*
+function caculateAdultYears(){
+    adultYears = age - 18
+}*/
+
+function caculateAdultYears(userAge){
+    return userAge - 18
+}
