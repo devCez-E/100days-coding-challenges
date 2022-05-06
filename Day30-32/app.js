@@ -18,20 +18,24 @@ let job = {
     salary: 50000
 };
 
-alert(hobbies[1]);
-alert(job.title);
+//alert(hobbies[1]);
+//alert(job.title);
+console.log(hobbies[1]);
+console.log(job.title);
 
 let adultYears;
 //adultYears = age - 18;
 //caculateAdultYears();
 adultYears = caculateAdultYears(age);
-alert(adultYears);
+//alert(adultYears);
+console.log(adultYears);
 
 age = 45;
 //adultYears = age - 18;
 //caculateAdultYears();
 adultYears = caculateAdultYears(age);
-alert(adultYears);
+//alert(adultYears);
+console.log(adultYears);
 
 /*
 function caculateAdultYears(){
@@ -41,3 +45,13 @@ function caculateAdultYears(){
 function caculateAdultYears(userAge){
     return userAge - 18
 }
+
+
+let person = {
+    name:'Max',             // Property
+    greet(){                // Method
+        alert('Hello!');
+    }
+};
+
+console.log(person.greet());
