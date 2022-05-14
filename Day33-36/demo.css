@@ -1,0 +1,50 @@
+body{
+    margin:0;
+    padding: 0;
+    background-color : rgb(40,40,40);
+}
+
+main{
+    width: 70%;
+    margin: 2rem auto;
+    padding: 1rem;
+    background-color: rgb(240, 237, 209);
+    border-radius: 6px;
+}
+
+#title{
+    margin:0;
+    padding:0;
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+#memo-container{
+    display: flex;
+    padding:0.6rem 0 1rem 0;
+}
+
+#memo{
+    width:50%;
+    margin-right: 1rem;
+}
+
+#memo-cnt{
+    margin: 0.3rem 0;
+    padding: 0;
+}
+
+button{
+    padding:0.4rem 1rem;
+    background-color: rgb(198, 187, 90);
+    border-style: none;
+    border-radius: 4px;
+}
+
+input .warning{
+    background-color: rgb(239, 149, 116);
+}
+
+p .warning{
+    color :  rgb(239, 149, 116);
+}
