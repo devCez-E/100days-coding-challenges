@@ -10,11 +10,20 @@ function updateRemainingCharacter(event){
     let remainCnt = totalCnt - cnt;
 
     if(remainCnt < 0) return;
+    else if(remainCnt === 0){
+        productNameInputElement.classList.add('error');
+        remainCharElement.classList.add('error');        
+    }
     else {
         if(remainCnt <= 10){
-            productNameInputElement.className = 'warning';
-            charCount.className = 'warning';
-        }   
-        remainCharElement.textContent = remainCnt;
+            productNameInputElement.classList.remove('error');
+            remainCharElement.classList.remove('error');
+            productNameInputElement.classList.add('warning');
+            remainCharElement.classList.add('warning');
+        } else{
+            productNameInputElement.classList.remove('warning');
+            remainCharElement.classList.remove('warning');
+        }
     }
+    remainCharElement.textContent = remainCnt;
 }
